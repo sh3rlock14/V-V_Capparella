@@ -1,0 +1,22 @@
+
+<?path Structure\Brain\ ?>
+
+<?include Brain-Flow.DES ?>
+<?include Brain-Fuel.DES ?>
+<?include Brain-Function.DES ?>
+<?include Brain-Ph.DES ?>
+<?include Brain-Pressure.DES ?>
+<?include Brain-Structure.DES ?>
+<?include Brain-Size.DES ?>
+
+<?include BrainInsult\BrainInsult.DES ?>
+
+<?include GlasgowComaScale.DES ?>
+<?include Seizure.DES ?>
+
+<?include Brain-CO2.DES ?>
+<?include Brain-Lactate.DES ?>
+
+<?include Brain-Metabolism.DES ?>
+<?include Brain-Vasculature.DES ?>
+

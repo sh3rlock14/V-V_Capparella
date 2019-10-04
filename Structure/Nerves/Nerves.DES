@@ -1,0 +1,24 @@
+
+<?path Structure\Nerves\ ?>
+
+<?include Baroreflex.DES ?>
+<?include CNSTrophicFactor.DES ?>
+<?include CushingResponse.DES ?>
+<?include LowPressureReceptors.DES ?>
+<?include Mechanoreceptors.DES ?>
+<?include SympsChemo.DES ?>
+<?include SympsCNS.DES ?>
+<?include SympsKidy.DES ?>
+<?include GangliaGeneral.DES ?>
+<?include GangliaKidney.DES ?>
+<?include VagusNerve.DES ?>
+<?include AdrenalNerve.DES ?>
+
+<?include Chemoreceptors.DES ?>
+<?include ChemoreceptorAcclimation.DES ?>
+
+<?include ExerciseSymps.DES ?>
+<?include MotorRadiation.DES ?>
+
+<?include SystemicVeins-AlphaReceptors.DES ?>
+

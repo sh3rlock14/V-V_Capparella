@@ -1,0 +1,11 @@
+
+<?path Structure\Electrolytes\ ?>
+
+<?include Cl\Cl.DES ?>
+<?include K\K.DES ?>
+<?include Na\Na.DES ?>
+<?include PO4\PO4.DES ?>
+<?include SO4\SO4.DES ?>
+
+<?include CellSID.DES ?>
+

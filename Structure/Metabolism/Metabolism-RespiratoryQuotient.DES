@@ -1,0 +1,12 @@
+Schema : 2005.0
+
+<structure><name> Metabolism-RespiratoryQuotient </name>
+
+<variables>
+
+<parm><name> RQ </name><val> 0.8 </val></parm>
+
+</variables>
+
+</structure>
+

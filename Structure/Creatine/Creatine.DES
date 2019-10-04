@@ -1,0 +1,21 @@
+Schema : 2005.0
+
+<?path Structure\Creatine\ ?>
+
+<?include CreatineSkeletalMuscle.DES ?>
+<?include CreatineCells.DES ?>
+
+<structure><name> Creatine </name>
+
+<definitions>
+
+<block><name> Calc </name>
+
+<call> CreatineSkeletalMuscle.Calc </call>
+<call> CreatineCells.Calc </call>
+
+</block>
+
+</definitions>
+</structure>
+

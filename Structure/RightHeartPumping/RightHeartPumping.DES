@@ -1,0 +1,24 @@
+<?path Structure\RightHeartPumping\ ?>
+
+<?include RightHeartPumping-Pumping.DES ?>
+<?include RightHeartPumping-Diastole.DES ?>
+<?include RightHeartPumping-Systole.DES ?>
+<?include RightHeartPumping-Valves.DES ?>
+
+
+<structure><name> RightHeartPumping </name>
+
+<definitions>
+
+<block><name> Dervs </name>
+
+<!-- <call> RightHeartPumping-Valves.Calc </call> -->
+  <call> RightHeartPumping-Diastole.Calc </call>
+  <call> RightHeartPumping-Systole.Calc </call>
+  <call> RightHeartPumping-Pumping.Calc </call>
+
+</block>
+
+</definitions>
+</structure>
+

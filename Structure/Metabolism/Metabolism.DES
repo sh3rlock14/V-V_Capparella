@@ -1,0 +1,15 @@
+
+<?path Structure\Metabolism\ ?>
+
+<?include Metabolism-Tools.DES ?>
+<?include Thyroid.DES ?>
+
+<?include Metabolism-FuelUse.DES ?>
+
+<?include Metabolism-MetabolicRate.DES ?>
+<?include Metabolism-RespiratoryQuotient.DES ?>
+<?include Metabolism-CaloriesUsed.DES ?>
+
+<?include Metabolism-Glucose.DES ?>
+<?include Metabolism-FattyAcid.DES ?>
+

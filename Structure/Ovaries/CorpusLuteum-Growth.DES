@@ -1,0 +1,20 @@
+
+<structure><name> CorpusLuteum-Growth </name>
+
+<variables>
+
+<var><name> Growth </name></var>
+
+</variables>
+
+<definitions>
+
+<block><name> Dervs </name>
+
+<def><name> Growth </name><val> Ovaries-Follicle.Atresia </val></def>
+
+</block>
+
+</definitions>
+</structure>
+

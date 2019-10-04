@@ -1,0 +1,20 @@
+
+<structure><name> Testes-Progesterone </name>
+
+<variables>
+
+<var><name> Secretion </name></var>
+
+</variables>
+
+<definitions>
+
+<block><name> Dervs </name>
+
+<def><name> Secretion </name><val> 2.64 </val></def>
+
+</block>
+
+</definitions>
+</structure>
+

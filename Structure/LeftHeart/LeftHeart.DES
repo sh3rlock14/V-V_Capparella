@@ -1,0 +1,23 @@
+
+<?path Structure\LeftHeart\ ?>
+
+<?include LeftHeart-Flow.DES ?>
+<?include LeftHeart-Pressure.DES ?>
+<?include LeftHeart-ContractileProtein.DES ?>
+<?include LeftHeart-Size.DES ?>
+<?include LeftHeart-Function.DES ?>
+
+<?include LeftHeart-CO2.DES ?>
+<?include LeftHeart-Lactate.DES ?>
+<?include LeftHeart-Ph.DES ?>
+
+<?include LeftHeart-Fuel.DES ?>
+<?include LeftHeart-Metabolism.DES ?>
+<?include LeftHeart-AlphaReceptors.DES ?>
+<?include LeftHeart-BetaReceptors.DES ?>
+<?include LeftHeart-Structure.DES ?>
+<?include LeftHeart-Vasculature.DES ?>
+
+<?include LeftHeart-Work.DES ?>
+<?include LeftHeart-Infarction.DES ?>
+

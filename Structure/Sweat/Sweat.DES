@@ -1,0 +1,32 @@
+Schema : 2005.0
+
+<?path Structure\Sweat\ ?>
+
+<?include SweatGland.DES ?>
+<?include SweatDuct.DES ?>
+<?include SweatAcclimation.DES ?>
+<?include SweatFuel.DES ?>
+
+<structure><name> Sweat </name>
+
+<definitions>
+
+<block><name> Parms </name>
+  <call> SweatAcclimation.Parms </call>
+  <call> SweatDuct.Parms </call>
+</block>
+
+<block><name> Calc </name>
+  <call> SweatGland.Calc </call>
+  <call> SweatDuct.Calc </call>
+</block>
+
+<block><name> Dervs </name>
+  <call> SweatAcclimation.Dervs </call>
+  <call> SweatFuel.Dervs </call>
+</block>
+
+</definitions>
+</structure>
+
+End

@@ -1,0 +1,30 @@
+
+<structure><name> AlphaBlockade </name>
+
+<variables>
+
+<parm>
+  <name> Block(%) </name>
+  <val> 0.0 </val>
+</parm>
+
+<var>
+  <name> Effect </name>
+</var>
+
+</variables>
+
+<definitions>
+
+<block><name> Parms </name>
+
+<def>
+  <name> Effect </name>
+  <val> 1.0 - ( Block(%) / 100.0 ) </val>
+</def>
+
+</block>
+
+</definitions>
+</structure>
+

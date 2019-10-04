@@ -1,0 +1,29 @@
+
+<structure><name> GlomerulusPhosphate </name>
+
+<variables>
+
+<var><name> Rate </name></var>
+<var><name> [PO4--] </name></var>
+
+</variables>
+
+<definitions>
+
+<block><name> Calc </name>
+
+<def><name> [PO4--] </name><val> PO4Pool.[PO4--] * GlomerulusFiltrate.AnionAdjustment </val></def>
+<def><name> Rate </name><val> [PO4--] * GlomerulusFiltrate.GFR </val></def>
+
+</block>
+
+<block><name> Failed </name>
+
+<def><name> [PO4--] </name><val> 0.0 </val></def>
+<def><name> Rate </name><val> 0.0 </val></def>
+
+</block>
+
+</definitions>
+</structure>
+

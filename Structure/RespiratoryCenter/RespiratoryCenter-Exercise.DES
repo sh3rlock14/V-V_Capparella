@@ -1,0 +1,26 @@
+
+<structure><name> RespiratoryCenter-Exercise </name>
+
+<variables>
+
+<var>
+  <name> TotalDrive </name>
+</var>
+
+</variables>
+
+<definitions>
+<block><name> Calc </name>
+
+<def>
+  <name> TotalDrive </name>
+  <val>
+      RespiratoryCenter-Radiation.TotalDrive
+    + RespiratoryCenter-Metaboreflex.Drive </val>
+</def>
+
+</block>
+
+</definitions>
+</structure>
+

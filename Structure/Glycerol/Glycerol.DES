@@ -1,0 +1,6 @@
+Schema : 2005.0
+
+<?path Structure\Glycerol\ ?>
+
+<?include GlycerolPool.DES ?>
+

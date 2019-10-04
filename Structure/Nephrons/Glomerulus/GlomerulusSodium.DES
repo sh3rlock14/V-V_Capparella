@@ -1,0 +1,29 @@
+
+<structure><name> GlomerulusSodium </name>
+
+<variables>
+
+<var><name> Rate </name></var>
+<var><name> [Na+] </name></var>
+
+</variables>
+
+<definitions>
+
+<block><name> Calc </name>
+
+<def><name> [Na+] </name><val> NaPool.[Na+] * GlomerulusFiltrate.CationAdjustment </val></def>
+<def><name> Rate </name><val> [Na+] * GlomerulusFiltrate.GFR </val></def>
+
+</block>
+
+<block><name> Failed </name>
+
+<def><name> [Na+] </name><val> 0.0 </val></def>
+<def><name> Rate </name><val> 0.0 </val></def>
+
+</block>
+
+</definitions>
+</structure>
+

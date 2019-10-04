@@ -1,0 +1,23 @@
+
+<structure><name> BMI </name>
+
+<variables>
+
+<var>
+  <name> BMI </name>
+</var>
+
+</variables>
+
+<definitions>
+<block><name> Calc </name>
+
+<def>
+  <name> BMI </name>
+  <val> Weight.Weight(kG) / ( Height.Height(M) ^ 2 ) </val>
+</def>
+
+</block>
+</definitions>
+</structure>
+

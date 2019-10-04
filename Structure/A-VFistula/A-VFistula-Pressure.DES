@@ -1,0 +1,32 @@
+<structure><name> A-VFistula-Pressure </name>
+
+<variables>
+
+<var><name> ArtyPressure </name></var>
+<var><name> VeinPressure </name></var>
+<var><name> PressureGradient </name></var>
+
+</variables>
+
+<definitions>
+<block><name> Calc </name>
+
+<def>
+  <name> ArtyPressure </name>
+  <val> SystemicArtys.Pressure </val>
+</def>
+
+<def>
+  <name> VeinPressure </name>
+  <val> SystemicVeins.Pressure </val>
+</def>
+
+<def>
+  <name> PressureGradient </name>
+  <val> ( ArtyPressure - VeinPressure ) MAX 0.0 </val>
+</def>
+
+</block>
+</definitions>
+</structure>
+

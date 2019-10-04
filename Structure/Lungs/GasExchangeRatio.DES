@@ -1,0 +1,25 @@
+
+<structure><name> GasExchangeRatio </name>
+
+<variables>
+
+<var>
+  <name> Ratio </name>
+</var>
+
+</variables>
+
+<definitions>
+<block><name> Calc </name>
+
+<conditional>
+  <name> Ratio </name>
+  <test> LungO2.Uptake GT 0.0 </test>
+  <true> LungCO2.Expired / LungO2.Uptake </true>
+  <false> 0.0 </false>
+</conditional>
+
+</block>
+</definitions>
+</structure>
+

@@ -1,0 +1,24 @@
+
+<structure><name> LeptinPump </name>
+
+<variables>
+
+<var><name> Rate </name></var>
+<parm><name> Switch </name><val> FALSE </val></parm>
+<parm><name> Setting </name><val> 0.0 </val></parm>
+
+</variables>
+
+<definitions>
+<block><name> Parms </name>
+
+<def>
+  <name> Rate </name>
+  <val> Switch * Setting </val>
+</def>
+
+</block>
+
+</definitions>
+</structure>
+

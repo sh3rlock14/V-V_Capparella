@@ -1,0 +1,27 @@
+
+<structure><name> HeatUrine </name>
+
+<variables>
+
+<var>
+  <name> Flux </name>
+</var>
+
+</variables>
+
+<definitions>
+<block><name> Flux </name>
+
+<def>
+  <name> Flux </name>
+  <val>
+       CD_H2O.Outflow
+     * HeatCore.Temp(K)
+     * SpecificHeat.Water(kCal/G)
+  </val>
+</def>
+
+</block>
+</definitions>
+</structure>
+

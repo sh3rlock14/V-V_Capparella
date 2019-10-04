@@ -1,0 +1,21 @@
+Schema : 2005.0
+
+<structure><name> Heart-Rate </name>
+
+<variables>
+
+<var><name> Rate </name></var>
+
+</variables>
+
+<definitions>
+
+<block><name> Calc </name>
+
+<def><name> Rate </name><val> Heart-Ventricles.Rate </val></def>
+
+</block>
+
+</definitions>
+</structure>
+

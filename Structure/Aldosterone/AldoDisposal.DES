@@ -1,0 +1,42 @@
+<structure><name> AldoDisposal </name>
+
+<variables>
+
+<var><name> Rate </name></var>
+
+<var><name> Clearance </name></var>
+<parm><name> ExtractK </name><val> 0.78 </val></parm>
+
+<var><name> Degradation </name></var>
+<parm><name> DegradeK </name><val> 0.0007 </val></parm>
+
+</variables>
+
+<definitions>
+
+<block><name> Dervs </name>
+
+<def>
+  <name> Clearance </name>
+  <val>
+      ExtractK
+    * AldoPool.[Aldo]
+    * OrganFlow.HepaticVeinFlow
+  </val>
+</def>
+
+<def>
+  <name> Degradation </name>
+  <val> DegradeK * AldoPool.Mass </val>
+</def>
+
+<def>
+  <name> Rate </name>
+  <val> Clearance + Degradation </val>
+</def>
+
+</block>
+
+</definitions>
+</structure>
+

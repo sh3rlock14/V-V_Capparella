@@ -1,0 +1,16 @@
+
+<?path Structure\OtherTissue\ ?>
+
+<?include OtherTissue-Size.DES ?>
+<?include OtherTissue-Structure.DES ?>
+<?include OtherTissue-Ph.DES ?>
+<?include OtherTissue-Fuel.DES ?>
+<?include OtherTissue-Function.DES ?>
+<?include OtherTissue-Pressure.DES ?>
+<?include OtherTissue-Flow.DES ?>
+<?include OtherTissue-Vasculature.DES ?>
+<?include OtherTissue-AlphaReceptors.DES ?>
+<?include OtherTissue-CO2.DES ?>
+<?include OtherTissue-Lactate.DES ?>
+<?include OtherTissue-Metabolism.DES ?>
+

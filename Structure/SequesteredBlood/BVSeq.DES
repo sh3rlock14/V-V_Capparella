@@ -1,0 +1,23 @@
+
+<structure><name> BVSeq </name>
+
+<variables>
+
+<var>
+  <name> Vol </name>
+</var>
+
+</variables>
+
+<definitions>
+<block><name> Calc </name>
+
+<def>
+  <name> Vol </name>
+  <val> BVSeqArtys.Vol + BVSeqVeins.Vol </val>
+</def>
+
+</block>
+</definitions>
+</structure>
+

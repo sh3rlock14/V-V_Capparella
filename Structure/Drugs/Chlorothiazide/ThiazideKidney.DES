@@ -1,0 +1,35 @@
+
+<structure><name> ThiazideKidney </name>
+
+<variables>
+
+<var>
+  <name> UrineLoss </name>
+</var>
+
+<constant>
+  <name> K </name>
+  <val> 0.008 </val>
+</constant>
+
+</variables>
+
+<definitions>
+
+<block><name> Dervs </name>
+
+<def>
+  <name> UrineLoss </name>
+  <val>
+      K
+    * ThiazidePool.Mass
+    * GlomerulusFiltrate.GFRxNormal
+    * Kidney-Function.Effect
+  </val>
+</def>
+
+</block>
+
+</definitions>
+</structure>
+

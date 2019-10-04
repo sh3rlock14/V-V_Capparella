@@ -1,0 +1,102 @@
+
+<structure><name> GlasgowComaScale </name>
+
+<variables>
+
+<var>
+  <name> Value </name>
+</var>
+
+</variables>
+
+<definitions>
+<block><name> Calc </name>
+
+<testcase>
+
+<case>
+<test> Brain-Function.IsReallyDead </test>
+
+  <def>
+    <name> Value </name>
+    <val> 3.0 </val>
+  </def>
+
+</case>
+
+<case>
+<test> Brain-Function.MayBeDead </test>
+
+  <def>
+    <name> Value </name>
+    <val> 4.0 </val>
+  </def>
+
+</case>
+
+<case>
+<test> Brain-Function.NotBreathing </test>
+
+  <def>
+    <name> Value </name>
+    <val> 5.0 </val>
+  </def>
+
+</case>
+
+<case>
+<test> Seizure.Convulsing </test>
+
+  <def>
+    <name> Value </name>
+    <val> 6.0 </val>
+  </def>
+
+</case>
+
+<case>
+<test> Brain-Function.Comatose </test>
+
+  <def>
+    <name> Value </name>
+    <val> 7.0 </val>
+  </def>
+
+</case>
+
+<case>
+<test> Brain-Function.Impaired </test>
+
+  <def>
+    <name> Value </name>
+    <val> 13.0 </val>
+  </def>
+
+</case>
+
+<case>
+<test> Brain-Function.Confused </test>
+
+  <def>
+    <name> Value </name>
+    <val> 14.0 </val>
+  </def>
+
+</case>
+
+<case>
+<test> Brain-Function.Normal </test>
+
+  <def>
+    <name> Value </name>
+    <val> 15.0 </val>
+  </def>
+
+</case>
+
+</testcase>
+
+</block>
+</definitions>
+</structure>
+

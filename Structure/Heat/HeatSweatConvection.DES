@@ -1,0 +1,26 @@
+
+<structure><name> HeatSweatConvection </name>
+
+<variables>
+
+<var>
+  <name> Flux </name>
+</var>
+
+</variables>
+
+<definitions>
+<block><name> Flux </name>
+
+<def>
+  <name> Flux </name>
+  <val>
+     SweatDuct.H2OOutflow
+   * HeatSkin.Temp(K)
+   * SpecificHeat.Water(kCal/G) </val>
+</def>
+
+</block>
+</definitions>
+</structure>
+

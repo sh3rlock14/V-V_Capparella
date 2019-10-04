@@ -1,0 +1,32 @@
+
+<?path Structure\Testes\ ?>
+
+<?include Testes-Testosterone.DES ?>
+<?include Testes-Estradiol.DES ?>
+<?include Testes-Progesterone.DES ?>
+<?include Testes-Inhibin.DES ?>
+
+<structure><name> Testes </name>
+
+<variables>
+
+<!--
+<var><name>  </name></var>
+-->
+
+</variables>
+
+<definitions>
+
+<block><name> Dervs </name>
+
+  <call> Testes-Estradiol.Dervs </call>
+  <call> Testes-Progesterone.Dervs </call>
+  <call> Testes-Testosterone.Dervs </call>
+  <call> Testes-Inhibin.Dervs </call>
+
+</block>
+
+</definitions>
+</structure>
+

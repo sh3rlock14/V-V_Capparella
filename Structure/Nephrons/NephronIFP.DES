@@ -1,0 +1,31 @@
+
+<structure><name> NephronIFP </name>
+
+<variables>
+
+<var><name> Pressure </name></var>
+
+<parm><name> Clamp </name><val> FALSE </val></parm>
+<parm><name> Level </name><val> 0.0 </val></parm>
+
+<constant><name> K </name><val> 0.042 </val></constant>
+
+</variables>
+
+<definitions>
+
+<block><name> Calc </name>
+
+<conditional><name> Pressure </name>
+<test> Clamp </test>
+<true> Level </true>
+<false> K * Kidney-ArcuateArtery.Pressure </false>
+</conditional>
+
+</block>
+
+</definitions>
+
+
+</structure>
+

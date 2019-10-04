@@ -1,0 +1,14 @@
+
+<structure><name> TiltTable </name>
+
+<variables>
+
+<parm>
+  <name> Degrees </name>
+  <val> 0.0 </val>
+</parm>
+
+</variables>
+
+</structure>
+

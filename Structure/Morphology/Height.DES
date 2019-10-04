@@ -1,0 +1,36 @@
+
+<structure><name> Height </name>
+
+<variables>
+
+<parm><name> Height </name><val> 178.0 </val></parm>
+
+<var><name> Height(M) </name></var>
+<var><name> Height(In) </name></var>
+
+</variables>
+
+<definitions>
+
+<block><name> Initialize </name>
+
+<def>
+  <name> Height.Height </name>
+  <val> Values-Height.Height(cM) </val>
+</def>
+
+<def>
+  <name> Height(In) </name>
+  <val> Height / 2.54 </val>
+</def>
+
+<def>
+  <name> Height(M) </name>
+  <val> Height / 100.0 </val>
+</def>
+
+</block>
+
+</definitions>
+</structure>
+

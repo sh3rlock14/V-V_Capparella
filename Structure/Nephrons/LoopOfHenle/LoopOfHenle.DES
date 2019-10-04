@@ -1,0 +1,6 @@
+
+<?path Structure\Nephrons\LoopOfHenle\ ?>
+
+<?include LH_Na.DES ?>
+<?include LH_H2O.DES ?>
+

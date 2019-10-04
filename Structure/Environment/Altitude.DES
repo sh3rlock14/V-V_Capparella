@@ -1,0 +1,22 @@
+
+<structure><name> Altitude </name>
+
+<variables>
+
+<parm><name> Feet </name><val> 0.0 </val></parm>
+<var><name> Meters </name></var>
+
+</variables>
+
+<definitions>
+<block><name> Parms </name>
+
+<def>
+  <name> Meters </name>
+  <val> 0.3048 * Feet </val>
+</def>
+
+</block>
+</definitions>
+</structure>
+

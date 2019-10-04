@@ -1,0 +1,31 @@
+
+<?path Structure\Leptin\ ?>
+
+<?include LeptinPool.DES ?>
+<?include LeptinClearance.DES ?>
+<?include LeptinSecretion.DES ?>
+<?include LeptinPump.DES ?>
+
+<structure><name> Leptin </name>
+
+<definitions>
+
+<block><name> Parms </name>
+  <call> LeptinPump.Parms </call>
+</block>
+
+<block><name> Conc </name>
+  <call> LeptinPool.Conc </call>
+</block>
+
+<block><name> Dervs </name>
+
+  <call> LeptinSecretion.Dervs </call>
+  <call> LeptinClearance.Dervs </call>
+  <call> LeptinPool.Dervs </call>
+
+</block>
+
+</definitions>
+</structure>
+

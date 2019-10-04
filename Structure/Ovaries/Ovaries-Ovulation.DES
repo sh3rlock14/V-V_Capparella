@@ -1,0 +1,34 @@
+
+<structure><name> Ovaries-Ovulation </name>
+
+<variables>
+
+<parm><name> AnnounceOvulation </name><val> FALSE </val></parm>
+<var><name> LastOvulation </name><val> UNDEFINED </val></var>
+
+</variables>
+
+<definitions>
+
+<block><name> Wrapup </name>
+
+<if>
+<test>
+      ( Ovaries.Phase EQ Ovaries.IS_OVULATORY )
+  AND ( Progesterone.[Conc(nMol/L)] GE 8.0 )
+</test>
+<true>
+  <def><name> LastOvulation </name><val> System.X </val></def>
+  <def><name> Ovaries.Phase </name><val> Ovaries.IS_LUTEAL </val></def>
+  <andif>
+    <test> AnnounceOvulation </test>
+    <true><page> Ovulation just now. </page></true>
+  </andif>
+</true>
+</if>
+
+</block>
+
+</definitions>
+</structure>
+

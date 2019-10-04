@@ -1,0 +1,7 @@
+
+<?path Structure\Nephrons\DistalTubule\ ?>
+
+<?include DT_Na.DES ?>
+<?include DT_H2O.DES ?>
+<?include DT_K.DES ?>
+

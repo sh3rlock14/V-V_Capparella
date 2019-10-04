@@ -1,0 +1,28 @@
+
+<structure><name> Inhibin-B </name>
+
+<variables>
+
+<var><name> Secretion </name></var>
+<parm><name> Base </name><val> 0.28 </val></parm>
+
+</variables>
+
+<definitions>
+
+<block><name> Dervs </name>
+
+<def>
+  <name> Secretion </name>
+  <val>
+       Base
+     * Ovaries-Follicle.Mass
+     * ( Ovaries.Phase EQ Ovaries.IS_FOLLICULAR )
+  </val>
+</def>
+
+</block>
+
+</definitions>
+</structure>
+

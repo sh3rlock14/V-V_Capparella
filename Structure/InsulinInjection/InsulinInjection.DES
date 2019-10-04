@@ -1,0 +1,32 @@
+Schema : 2005.0
+
+<structure><name> InsulinInjection </name>
+
+<variables>
+
+<parm><name> Dose </name><val> 0.0 </val></parm>
+<parm><name> Type </name><val> 0 </val></parm>
+
+<var><name> TotalInjections </name><val> 0 </val></var>
+<var><name> TotalDose </name><val> 0.0 </val></var>
+
+</variables>
+
+<definitions>
+<block><name> InjectInsulinNow </name>
+
+<def>
+  <name> TotalInjections </name>
+  <val> TotalInjections + 1 </val>
+</def>
+
+<def>
+  <name> TotalDose </name>
+  <val> TotalDose + Dose </val>
+</def>
+
+</block>
+
+</definitions>
+</structure>
+

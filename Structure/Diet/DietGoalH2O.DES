@@ -1,0 +1,25 @@
+
+<structure><name> DietGoalH2O </name>
+
+<variables>
+
+<parm><name> Rate(L/Day) </name><val> 2.0 </val></parm>
+<parm><name> DegF </name><val> 70.0 </val></parm>
+
+<var><name> DegC </name></var>
+<var><name> DegK </name></var>
+
+</variables>
+
+<definitions>
+
+<block><name> Parms </name>
+
+<def><name> DegC  </name><val> ( 5 / 9 ) * ( DegF - 32 ) </val></def>
+<def><name> DegK </name><val> DegC + 273.15 </val></def>
+
+</block>
+
+</definitions>
+</structure>
+

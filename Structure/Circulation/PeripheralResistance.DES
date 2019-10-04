@@ -1,0 +1,24 @@
+
+<structure><name> PeripheralResistance </name>
+
+<variables>
+
+<var><name> TPR </name></var>
+
+</variables>
+
+<definitions>
+
+<block><name> Wrapup </name>
+
+<conditional><name> TPR </name>
+<test> CardiacOutput.Flow GT 0.0 </test>
+<true> ( SystemicArtys.Pressure - RightAtrium.Pressure ) / CardiacOutput.Flow </true>
+<false> UNKNOWN </false>
+</conditional>
+
+</block>
+
+</definitions>
+</structure>
+

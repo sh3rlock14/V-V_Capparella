@@ -1,0 +1,15 @@
+Schema : DES V1.0
+
+<structure><name> Gender </name>
+
+<variables>
+
+<var><name> IsMale </name></var>
+<var><name> IsFemale </name></var>
+
+<var><name> Value </name></var>
+
+</variables>
+
+</structure>
+

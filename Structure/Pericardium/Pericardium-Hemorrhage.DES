@@ -1,0 +1,46 @@
+Schema : 2005.0
+
+<structure><name> Pericardium-Hemorrhage </name>
+
+<variables>
+
+<parm><name> Switch </name><val> FALSE </val></parm>
+<parm><name> Conductance </name><val> 0.0 </val></parm>
+
+<var><name> BloodFlow </name></var>
+<var><name> PressureGradient </name></var>
+
+<var><name> RBCFlow </name></var>
+<var><name> PlasmaFlow </name></var>
+
+</variables>
+
+<definitions>
+
+<block><name> Dervs </name>
+
+<def>
+  <name> PressureGradient </name>
+  <val> SystemicArtys.Pressure - Pericardium-Cavity.Pressure </val>
+</def>
+
+<def>
+  <name> BloodFlow </name>
+  <val> PressureGradient * Conductance </val>
+</def>
+
+<def>
+  <name> RBCFlow </name>
+  <val> BloodVol.Hct * BloodFlow </val>
+</def>
+
+<def>
+  <name> PlasmaFlow </name>
+  <val> BloodVol.PVCrit * BloodFlow </val>
+</def>
+
+</block>
+
+</definitions>
+</structure>
+

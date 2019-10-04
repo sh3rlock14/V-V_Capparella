@@ -1,0 +1,23 @@
+Schema : 2005.0
+
+<structure><name> Heart-Asystole </name>
+
+<variables>
+  <var><name> Is_Asystole </name><val> FALSE </val></var>
+</variables>
+
+<definitions>
+
+<block><name> Wrapup </name>
+
+<conditional><name> Is_Asystole </name>
+  <test> LeftHeart-Function.Failed </test>
+  <true> TRUE </true>
+  <false> FALSE </false>
+</conditional>
+
+</block>
+
+</definitions>
+</structure>
+

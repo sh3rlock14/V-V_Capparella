@@ -1,0 +1,18 @@
+
+<?path Structure\HeartValves\AorticValve\ ?>
+
+<?include AorticValve-Stenosis.DES ?>
+<?include AorticValve-Regurgitation.DES ?>
+
+<structure><name> AorticValve </name>
+
+<definitions>
+<block><name> Parms </name>
+
+<call> AorticValve-Stenosis.Parms </call>
+<call> AorticValve-Regurgitation.Parms </call>
+
+</block>
+</definitions>
+</structure>
+

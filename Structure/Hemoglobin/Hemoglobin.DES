@@ -1,0 +1,8 @@
+
+<?path Structure\Hemoglobin\ ?>
+
+<?include HgbProps.DES ?>
+<?include HgbConc.DES ?>
+<?include HgbTissue.DES ?>
+<?include HgbLung.DES ?>
+

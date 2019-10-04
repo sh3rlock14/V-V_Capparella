@@ -1,0 +1,8 @@
+Schema : 2005.0
+
+<?path Structure\SequesteredBlood\ ?>
+
+<?include BVSeq.DES ?>
+<?include BVSeqArtys.DES ?>
+<?include BVSeqVeins.DES ?>
+

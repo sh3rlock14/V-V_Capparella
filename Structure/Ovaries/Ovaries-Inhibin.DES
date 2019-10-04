@@ -1,0 +1,31 @@
+
+<?path Structure\Ovaries\ ?>
+
+<?include Inhibin-A.DES ?>
+<?include Inhibin-B.DES ?>
+
+<structure><name> Ovaries-Inhibin </name>
+
+<variables>
+
+<var><name> Secretion </name></var>
+
+</variables>
+
+<definitions>
+
+<block><name> Dervs </name>
+
+<call> Inhibin-A.Dervs </call>
+<call> Inhibin-B.Dervs </call>
+
+<def>
+  <name> Secretion </name>
+  <val> Inhibin-A.Secretion + Inhibin-B.Secretion </val>
+</def>
+
+</block>
+
+</definitions>
+</structure>
+

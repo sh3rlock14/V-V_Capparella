@@ -1,0 +1,19 @@
+
+<structure><name> CO2Tools </name>
+
+<variables>
+
+<constant>
+  <name> MolsToLiters </name>
+  <val> 22.4 </val>
+</constant>
+
+<constant>
+  <name> LitersToMols </name>
+  <val> 0.0446 </val>
+</constant>
+
+</variables>
+
+</structure>
+

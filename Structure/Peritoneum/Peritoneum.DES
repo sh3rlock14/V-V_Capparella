@@ -1,0 +1,17 @@
+
+<?path Structure\Peritoneum\ ?>
+
+<?include PeritoneumSpace.DES ?>
+<?include PeritoneumProtein.DES ?>
+
+<structure><name> Peritoneum </name>
+<definitions>
+
+<block><name> Dervs </name>
+  <call> PeritoneumSpace.Dervs </call>
+  <call> PeritoneumProtein.Dervs </call>
+</block>
+
+</definitions>
+</structure>
+

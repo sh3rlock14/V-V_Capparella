@@ -1,0 +1,18 @@
+
+<?path Structure\GITract\ ?>
+
+<?include GITract-Flow.DES ?>
+<?include GITract-Pressure.DES ?>
+<?include GITract-Size.DES ?>
+
+<?include GITract-CO2.DES ?>
+<?include GITract-Lactate.DES ?>
+<?include GITract-Ph.DES ?>
+
+<?include GITract-Fuel.DES ?>
+<?include GITract-Function.DES ?>
+<?include GITract-Metabolism.DES ?>
+<?include GITract-AlphaReceptors.DES ?>
+<?include GITract-Structure.DES ?>
+<?include GITract-Vasculature.DES ?>
+

@@ -1,0 +1,26 @@
+
+<structure><name> HeatDialyzer </name>
+
+<variables>
+
+<var>
+  <name> Flux </name>
+</var>
+
+</variables>
+
+<definitions>
+<block><name> Flux </name>
+
+<def>
+  <name> Flux </name>
+  <val>
+       DialyzerActivity.UltrafiltrationRate
+     * HeatCore.Temp(K)
+     * SpecificHeat.Water(kCal/G) </val>
+</def>
+
+</block>
+</definitions>
+</structure>
+

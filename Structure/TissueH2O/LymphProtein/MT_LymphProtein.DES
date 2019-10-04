@@ -1,0 +1,21 @@
+Schema : 2005.0
+
+<structure><name> MT_LymphProtein </name>
+
+<variables>
+
+<var><name> Rate </name></var>
+
+</variables>
+
+<definitions>
+
+<block><name> Dervs </name>
+
+<def><name> Rate </name><val> MT_InterstitialProtein.[Protein] * MT_LymphWater.Rate </val></def>
+
+</block>
+
+</definitions>
+</structure>
+

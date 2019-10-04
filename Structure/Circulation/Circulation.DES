@@ -1,0 +1,16 @@
+
+<?path Structure\Circulation\ ?>
+
+<?include CircyManager.DES ?>
+
+<?include CardiacOutput.DES ?>
+<?include PeripheralResistance.DES ?>
+<?include HepaticArty.DES ?>
+<?include OrganFlow.DES ?>
+<?include Viscosity.DES ?>
+
+<?include ArtysVol.DES ?>
+<?include VeinsVol.DES ?>
+
+<?include CarotidSinus.DES ?>
+

@@ -1,0 +1,6 @@
+
+<?path Structure\FattyAcid\ ?>
+
+<?include FAPool.DES ?>
+<?include FADecomposition.DES ?>
+

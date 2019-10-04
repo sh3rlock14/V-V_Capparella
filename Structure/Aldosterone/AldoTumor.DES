@@ -1,0 +1,14 @@
+
+<structure><name> AldoTumor </name>
+
+<variables>
+
+<parm>
+  <name> SecretionRate </name>
+  <val> 0.0 </val>
+</parm>
+
+</variables>
+
+</structure>
+

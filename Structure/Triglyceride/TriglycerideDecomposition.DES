@@ -1,0 +1,22 @@
+Schema : 2005.0
+
+<structure><name> TriglycerideDecomposition </name>
+
+<variables>
+
+<var><name> Rate </name></var>
+<parm><name> K </name><val> 0.0007 </val></parm>
+
+</variables>
+
+<definitions>
+
+<block><name> Rate </name>
+
+<def><name> Rate </name><val> K * TriglyceridePool.Mass </val></def>
+
+</block>
+
+</definitions>
+</structure>
+

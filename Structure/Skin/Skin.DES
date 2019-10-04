@@ -1,0 +1,18 @@
+
+<?path Structure\Skin\ ?>
+
+<?include Skin-Flow.DES ?>
+<?include Skin-Pressure.DES ?>
+<?include Skin-Size.DES ?>
+
+<?include Skin-CO2.DES ?>
+<?include Skin-Lactate.DES ?>
+<?include Skin-Ph.DES ?>
+
+<?include Skin-Fuel.DES ?>
+<?include Skin-Function.DES ?>
+<?include Skin-Metabolism.DES ?>
+<?include Skin-AlphaReceptors.DES ?>
+<?include Skin-Structure.DES ?>
+<?include Skin-Vasculature.DES ?>
+

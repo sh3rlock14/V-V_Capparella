@@ -1,0 +1,35 @@
+
+<structure><name> FurosemideKidney </name>
+
+<variables>
+
+<var>
+  <name> UrineLoss </name>
+</var>
+
+<constant>
+  <name> K </name>
+  <val> 0.01 </val>
+</constant>
+
+</variables>
+
+<definitions>
+
+<block><name> Dervs </name>
+
+<def>
+  <name> UrineLoss </name>
+  <val>
+      K
+    * FurosemidePool.Mass
+    * Kidney-NephronCount.Filtering(xNormal)
+    * Kidney-Function.Effect
+  </val>
+</def>
+
+</block>
+
+</definitions>
+</structure>
+

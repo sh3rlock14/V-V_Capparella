@@ -1,0 +1,41 @@
+
+<structure><name> RespiratoryMuscle-Work </name>
+
+<variables>
+
+<var>
+  <name> TotalCals </name>
+</var>
+
+<var>
+  <name> MotionCals </name>
+</var>
+
+<var>
+  <name> HeatCals </name>
+</var>
+
+</variables>
+
+<definitions>
+<block><name> Calc </name>
+
+<def>
+  <name> MotionCals </name>
+  <val> 5.0 </val>
+</def>
+
+<def>
+  <name> HeatCals </name>
+  <val> 16.0 </val>
+</def>
+
+<def>
+  <name> TotalCals </name>
+  <val> MotionCals + HeatCals </val>
+</def>
+
+</block>
+</definitions>
+</structure>
+

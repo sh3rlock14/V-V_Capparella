@@ -1,0 +1,14 @@
+
+<structure><name> Exercise-Motivation </name>
+
+<variables>
+
+<parm>
+  <name> Motivation </name>
+  <val> 0.03 </val>
+</parm>
+
+</variables>
+
+</structure>
+

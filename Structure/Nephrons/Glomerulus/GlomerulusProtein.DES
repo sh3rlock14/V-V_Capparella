@@ -1,0 +1,31 @@
+
+<structure><name> GlomerulusProtein </name>
+
+<variables>
+
+<var><name> Rate </name></var>
+<var><name> [Protein] </name></var>
+
+<parm><name> Perm </name><val> 0.0 </val></parm>
+
+</variables>
+
+<definitions>
+
+<block><name> Calc </name>
+
+<def><name> [Protein] </name><val> PlasmaProtein.[Protein] </val></def>
+<def><name> Rate </name><val> [Protein] * Perm </val></def>
+
+</block>
+
+<block><name> Failed </name>
+
+<def><name> [Protein] </name><val> 0.0 </val></def>
+<def><name> Rate </name><val> 0.0 </val></def>
+
+</block>
+
+</definitions>
+</structure>
+

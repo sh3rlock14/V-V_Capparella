@@ -1,0 +1,28 @@
+
+<structure><name> AmbientTemperature </name>
+
+<variables>
+
+<parm><name> Temp(F) </name><val> 72.0 </val></parm>
+<var><name> Temp(C) </name></var>
+<var><name> Temp(K) </name></var>
+
+</variables>
+
+<definitions>
+<block><name> Parms </name>
+
+<def>
+  <name> Temp(C) </name>
+  <val> ( 5 / 9 ) * ( Temp(F) - 32 ) </val>
+</def>
+
+<def>
+  <name> Temp(K) </name>
+  <val> Temp(C) + 273.15 </val>
+</def>
+
+</block>
+</definitions>
+</structure>
+

@@ -1,0 +1,11 @@
+
+<structure><name> Wind </name>
+
+<variables>
+
+<parm><name> MPH </name><val> 0.0 </val></parm>
+
+</variables>
+
+</structure>
+

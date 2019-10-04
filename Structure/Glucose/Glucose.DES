@@ -1,0 +1,7 @@
+
+<?path Structure\Glucose\ ?>
+
+<?include GlucosePool.DES ?>
+<?include GlucoseDecomposition.DES ?>
+<?include GlucosePump.DES ?>
+

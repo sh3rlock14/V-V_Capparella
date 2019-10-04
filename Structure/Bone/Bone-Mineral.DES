@@ -1,0 +1,34 @@
+
+<structure><name> Bone-Mineral </name>
+
+<equations>
+
+<diffeq>
+  <name> Mass </name>
+  <integralname> Mass </integralname>
+  <dervname> Change </dervname>
+  <errorlim> 57.5 </errorlim>
+</diffeq>
+
+</equations>
+
+<definitions>
+
+<block><name> Initialize </name>
+
+<def><name> Mass </name><val> Bone-Size.InitialMineralMass </val></def>
+
+</block>
+
+<block><name> Dervs </name>
+
+<def>
+  <name> Change </name>
+  <val> 0.0 </val>
+</def>
+
+</block>
+
+</definitions>
+</structure>
+

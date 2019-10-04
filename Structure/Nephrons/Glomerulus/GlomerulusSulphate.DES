@@ -1,0 +1,29 @@
+
+<structure><name> GlomerulusSulphate </name>
+
+<variables>
+
+<var><name> Rate </name></var>
+<var><name> [SO4--] </name></var>
+
+</variables>
+
+<definitions>
+
+<block><name> Calc </name>
+
+<def><name> [SO4--] </name><val> SO4Pool.[SO4--] * GlomerulusFiltrate.AnionAdjustment </val></def>
+<def><name> Rate </name><val> [SO4--] * GlomerulusFiltrate.GFR </val></def>
+
+</block>
+
+<block><name> Failed </name>
+
+<def><name> [SO4--] </name><val> 0.0 </val></def>
+<def><name> Rate </name><val> 0.0 </val></def>
+
+</block>
+
+</definitions>
+</structure>
+

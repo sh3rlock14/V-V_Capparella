@@ -1,0 +1,19 @@
+
+<structure><name> Kidney-Alpha </name>
+
+<variables>
+
+<parm>
+  <name> NA </name>
+  <val> 1.0 </val>
+</parm>
+
+<parm>
+  <name> PT_NA </name>
+  <val> 1.0 </val>
+</parm>
+
+</variables>
+
+</structure>
+

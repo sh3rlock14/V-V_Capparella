@@ -1,0 +1,7 @@
+
+<?path Structure\Nephrons\ProximalTubule\ ?>
+
+<?include PT_Na.DES ?>
+<?include PT_H2O.DES ?>
+<?include PT_NH3.DES ?>
+

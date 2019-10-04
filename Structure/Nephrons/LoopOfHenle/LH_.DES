@@ -1,0 +1,28 @@
+
+<structure><name> X </name>
+
+<variables>
+
+<parm>
+  <name>  </name>
+  <val>  </val>
+</parm>
+
+<var>
+  <name>  </name>
+</var>
+
+</variables>
+
+<definitions>
+<block><name> Calc </name>
+
+<def>
+  <name>  </name>
+  <val>  </val>
+</def>
+
+</block>
+</definitions>
+</structure>
+

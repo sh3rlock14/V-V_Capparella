@@ -1,0 +1,23 @@
+
+<structure><name> CushingResponse </name>
+
+<variables>
+
+<var>
+  <name> Effect </name>
+</var>
+
+</variables>
+
+<definitions>
+
+<block><name> Calc </name>
+<def>
+  <name> Effect </name>
+  <val> 0.0 </val>
+</def>
+
+</block>
+</definitions>
+</structure>
+

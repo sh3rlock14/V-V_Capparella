@@ -1,0 +1,17 @@
+Schema : 2005.0
+
+<?path Structure\Liver\ ?>
+
+<?include Liver-O2.DES ?>
+<?include Liver-Size.DES ?>
+
+<?include Liver-CO2.DES ?>
+<?include Liver-Lactate.DES ?>
+<?include Liver-Ph.DES ?>
+
+<?include Liver-Fuel.DES ?>
+<?include Liver-Function.DES ?>
+<?include Liver-Metabolism.DES ?>
+<?include Liver-AlphaReceptors.DES ?>
+<?include Liver-Structure.DES ?>
+

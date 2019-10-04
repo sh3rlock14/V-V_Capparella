@@ -1,0 +1,21 @@
+Schema : 2005.0
+
+<structure><name> KMembrane </name>
+
+<variables>
+
+<var><name> MembranePotential </name></var>
+
+</variables>
+
+<definitions>
+
+<block><name> Dervs </name>
+
+<def><name> MembranePotential </name><val> -61.0 * LOG10 ( KCell.[K+] / KPool.[K+] ) </val></def>
+
+</block>
+
+</definitions>
+</structure>
+

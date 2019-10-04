@@ -1,0 +1,29 @@
+
+<structure><name> EpiClearance </name>
+
+<variables>
+
+<var>
+  <name> Rate </name>
+</var>
+
+<parm>
+  <name> K </name>
+  <val> 9.4 </val>
+</parm>
+
+</variables>
+
+<definitions>
+<block><name> Dervs </name>
+
+<def>
+  <name> Rate </name>
+  <val> K * EpiPool.[Epi(pG/mL)] </val>
+</def>
+
+</block>
+
+</definitions>
+</structure>
+

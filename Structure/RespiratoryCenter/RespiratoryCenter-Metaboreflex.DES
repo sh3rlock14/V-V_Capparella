@@ -1,0 +1,25 @@
+
+<structure><name> RespiratoryCenter-Metaboreflex </name>
+
+<variables>
+
+<var>
+  <name> Drive </name>
+</var>
+
+</variables>
+
+<definitions>
+
+<block><name> Calc </name>
+
+<def>
+  <name> Drive </name>
+  <val> SkeletalMuscle-Metaboreflex.NerveActivity </val>
+</def>
+
+</block>
+
+</definitions>
+</structure>
+

@@ -1,0 +1,43 @@
+<structure><name> Pericardium-Cavity </name>
+
+<variables>
+
+<var><name> Pressure </name></var>
+
+</variables>
+
+<equations>
+
+<diffeq>
+  <name> Vol </name>
+  <integralname> Vol </integralname>
+  <initialval> 0.0 </initialval>
+  <dervname> Change </dervname>
+  <errorlim> 0.1 </errorlim>
+</diffeq>
+
+</equations>
+
+<definitions>
+
+<block><name> Calc </name>
+
+<def>
+  <name> Pressure </name>
+  <val> Thorax.AvePressure + Pericardium-TMP.Pressure </val>
+</def>
+
+</block>
+
+<block><name> Dervs </name>
+
+<def>
+  <name> Change </name>
+  <val> Pericardium-Hemorrhage.BloodFlow - Pericardium-Drain.BloodFlow </val>
+</def>
+
+</block>
+
+</definitions>
+</structure>
+

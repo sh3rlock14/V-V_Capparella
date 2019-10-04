@@ -1,0 +1,6 @@
+
+<?path Structure\DailyPlanner\ ?>
+
+<?include DailyPlannerControl.DES ?>
+<?include DailyPlannerSchedule.DES ?>
+

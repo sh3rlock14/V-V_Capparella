@@ -1,0 +1,24 @@
+<structure><name> HeatSweating </name>
+
+<variables>
+
+<var>
+  <name> Flux </name>
+</var>
+
+</variables>
+
+<definitions>
+
+<block><name> Flux </name>
+
+<def>
+  <name> Flux </name>
+  <val> HeatSweatEvaporation.Flux + HeatSweatConvection.Flux </val>
+</def>
+
+</block>
+
+</definitions>
+</structure>
+

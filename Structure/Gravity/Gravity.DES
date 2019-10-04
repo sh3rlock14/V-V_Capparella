@@ -1,0 +1,14 @@
+
+<structure><name> Gravity </name>
+
+<variables>
+
+<parm>
+  <name> Gz </name>
+  <val> 1.0 </val>
+</parm>
+
+</variables>
+
+</structure>
+

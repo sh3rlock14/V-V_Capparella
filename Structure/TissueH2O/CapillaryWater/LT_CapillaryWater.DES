@@ -1,0 +1,33 @@
+Schema : 2005.0
+
+<structure><name> LT_CapillaryWater </name>
+
+<variables>
+
+<var><name> Rate </name></var>
+<var><name> Gradient </name></var>
+
+<parm><name> Perm </name><val> 0.27 </val></parm>
+
+</variables>
+
+<definitions>
+
+<block><name> Dervs </name>
+
+<def><name> Gradient </name>
+  <val>
+      RegionalPressure.UpperCapy
+    - LT_InterstitialWater.Pressure
+    + LT_InterstitialProtein.COP
+    - PlasmaProtein.COP
+  </val>
+</def>
+
+<def><name> Rate </name><val> Perm * Gradient </val></def>
+
+</block>
+
+</definitions>
+</structure>
+

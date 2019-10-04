@@ -1,0 +1,35 @@
+
+<?path Structure\Nephrons\Medulla\ ?>
+
+<?include MedullaNa.DES ?>
+<?include MedullaUrea.DES ?>
+
+<structure><name> Medulla </name>
+
+<variables>
+
+<parm>
+  <name> Volume </name>
+  <val> 31 </val>
+</parm>
+
+<var>
+  <name> [Osm] </name>
+</var>
+
+</variables>
+
+<definitions>
+
+<block><name> CalcOsm </name>
+
+<def>
+  <name> [Osm] </name>
+  <val> MedullaNa.Osmolarity + MedullaUrea.Osmolarity </val>
+</def>
+
+</block>
+
+</definitions>
+</structure>
+

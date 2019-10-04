@@ -1,0 +1,27 @@
+
+<structure><name> SurfaceArea </name>
+
+<variables>
+
+<var>
+  <name> Area </name>
+</var>
+
+</variables>
+
+<definitions>
+<block><name> Calc </name>
+
+<def>
+  <name> Area </name>
+  <val>
+      0.007184
+    * ( Weight.Weight(kG) ^ 0.425 )
+    * ( Height.Height ^ 0.725 )
+  </val>
+</def>
+
+</block>
+</definitions>
+</structure>
+

@@ -1,0 +1,49 @@
+
+<structure><name> OrganFlow </name>
+
+<variables>
+
+<var>
+  <name> PeripheralFlow </name>
+</var>
+
+<var>
+  <name> HepaticVeinFlow </name>
+</var>
+
+</variables>
+
+<definitions>
+
+<block><name> Calc </name>
+
+<def>
+  <name> PeripheralFlow </name>
+  <val>
+     A-VFistula-Flow.BloodFlow
+   + Bone-Flow.BloodFlow
+   + Brain-Flow.BloodFlow
+   + Fat-Flow.BloodFlow
+   + Kidney-Flow.BloodFlow
+   + LeftHeart-Flow.BloodFlow
+   + OtherTissue-Flow.BloodFlow
+   + RespiratoryMuscle-Flow.BloodFlow
+   + RightHeart-Flow.BloodFlow
+   + SkeletalMuscle-Flow.BloodFlow
+   + Skin-Flow.BloodFlow
+  </val>
+</def>
+
+<def>
+  <name> HepaticVeinFlow </name>
+  <val>
+      GITract-Flow.BloodFlow
+    + HepaticArty.Flow
+  </val>
+</def>
+
+</block>
+
+</definitions>
+</structure>
+

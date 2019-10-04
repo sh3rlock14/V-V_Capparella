@@ -1,0 +1,24 @@
+
+<structure><name> Inhibin-A </name>
+
+<variables>
+
+<var><name> Secretion </name></var>
+<parm><name> Base </name><val> 0.28 </val></parm>
+
+</variables>
+
+<definitions>
+
+<block><name> Dervs </name>
+
+<def>
+  <name> Secretion </name>
+  <val> Base * Ovaries-CorpusLuteum.Mass </val>
+</def>
+
+</block>
+
+</definitions>
+</structure>
+
